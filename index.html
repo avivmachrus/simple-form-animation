@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Animation</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesome js file -->
+    <script
+      src="https://kit.fontawesome.com/867902f2b1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form>
+      <!-- username -->
+      <div class="field-name">
+        <i class="fas fa-user"></i>
+        <input
+          id="username-enter"
+          type="text"
+          placeholder="Username"
+          required
+          autofocus
+          autocomplete="off"
+        />
+        <i class="fas fa-arrow-down username-enter"></i>
+      </div>
+
+      <!-- email -->
+      <div class="field-email innactive">
+        <i class="far fa-envelope"></i>
+        <input
+          id="email-enter"
+          type="email"
+          placeholder="Email"
+          autocomplete="off"
+          required
+        />
+        <i class="fas fa-arrow-down email-enter"></i>
+      </div>
+
+      <!-- password -->
+      <div class="field-password innactive">
+        <i class="fas fa-key"></i>
+        <input
+          id="password-enter"
+          type="password"
+          placeholder="Password"
+          required
+        />
+        <i class="fas fa-arrow-down password-enter"></i>
+      </div>
+
+      <!-- finish -->
+      <div class="field-finish innactive">
+        <i class="fas fa-heart"></i>
+        <p>Thank You!</p>
+        <i class="fas fa-heart"></i>
+      </div>
+    </form>
+
+    <!-- js file -->
+    <script src="app.js"></script>
+  </body>
+</html>
